@@ -1,0 +1,12 @@
+﻿<metadata>
+  <add-node path="/api/package[@name='com.google.android.libraries.cast.companionlibrary.widgets']/class[@name='MiniController']">
+    <method abstract="false" deprecated="not deprecated" final="false" name="SetVisibility" native="false" return="void" static="false" synchronized="false" visibility="public">
+      <parameter name="input" type="int">
+      </parameter>
+    </method>
+  </add-node>
+  <attr path="/api/package[@name='com.google.android.libraries.cast.companionlibrary.cast']/class[@name='BaseCastManager']/method[@name='onApplicationConnected' and count(parameter)=4 and parameter[1][@type='com.google.android.gms.cast.ApplicationMetadata'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='boolean']]" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.google.android.libraries.cast.companionlibrary.cast']/class[@name='BaseCastManager']/method[@name='onApplicationStopFailed' and count(parameter)=1 and parameter[1][@type='int']]" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.google.android.libraries.cast.companionlibrary.cast']/class[@name='BaseCastManager']/method[@name='onApplicationConnectionFailed' and count(parameter)=1 and parameter[1][@type='int']]" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.google.android.libraries.cast.companionlibrary.cast']/class[@name='VideoCastManager']/method[@name='onApplicationConnected' and count(parameter)=4 and parameter[1][@type='com.google.android.gms.cast.ApplicationMetadata'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='boolean']]" name="visibility">public</attr>
+</metadata>
